@@ -12,3 +12,20 @@ For Loop
         Statement3: executed every time after the code block has been created
 
 While Loop
+
+    while(condition){
+        //code block to be executed
+    }
+
+    Explanation:
+        as long as (condition) is true, the code will be executed
+
+Do While Loop
+
+    do{
+        //code block to be executed
+    }
+    while (condition)
+
+    Explanation:
+        do{} executes the code block AT LEASE ONCE, whether the (condition) is TRUE OR FALSE.
