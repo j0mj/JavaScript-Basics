@@ -42,5 +42,19 @@ Break
 Object Literal
 
     let/const user = {
-        color: 'whatever' , //the comma is a NECESSITY to differentiate
+        color: 'whatever' , //the comma is a NECESSITY to seperate key-value pairs
     }
+
+    Explanation
+
+        color = is the KEY, it can be any data type
+        'whatever' = is the VALUE
+
+Dot Notation
+
+        user.color
+
+    Explanation:
+        user = object
+        . = dot operator
+        color = property name
