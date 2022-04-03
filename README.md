@@ -29,3 +29,16 @@ Do While Loop
 
     Explanation:
         do{} executes the code block AT LEASE ONCE, whether the (condition) is TRUE OR FALSE.
+
+Break
+
+    Explanation:
+        jumps out of the loop
+
+```
+
+```
+
+Object Literal
+
+    user = {}
