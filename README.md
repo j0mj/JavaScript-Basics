@@ -41,4 +41,6 @@ Break
 
 Object Literal
 
-    user = {}
+    let/const user = {
+        color: 'whatever' , //the comma is a NECESSITY to differentiate
+    }
