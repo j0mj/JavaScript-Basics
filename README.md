@@ -41,7 +41,8 @@ Break
 
 Object Literal
 
-    let/const user = {
+    let user = { //objects & their properties are mutable, even w/ (const) function
+
         color: 'whatever' , //the comma is a NECESSITY to seperate key-value pairs
     }
 
@@ -58,3 +59,33 @@ Dot Notation
         user = object
         . = dot operator
         color = property name
+
+Method
+
+    let user = {
+        color:'whatever',
+        read () {
+            console.log('I must read a book today!')
+        }
+    }
+
+    Explanation:
+
+        Method = a function as a property. A property is, method DOES ().
+
+Value types (Primitives) vs Reference Types (Objects)
+
+    Value(Primitives):
+        Number
+        String
+        Boolean
+        Symbol
+        undefined
+        null
+                Primitives are copied by their VALUE
+
+    Reference(Objects):
+        Object
+        Function
+        Array
+                Objects are copied by their REFERENCE
