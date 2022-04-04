@@ -31,6 +31,7 @@ For In Loop
         -Each iteration returns a key (x)
         -The key is used to access the value of the key
         -The value of the key is person[x]
+        -[for...in loop] will execute a given block of code for each property in an object.
 
 While Loop
 
