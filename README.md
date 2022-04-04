@@ -11,6 +11,27 @@ For Loop
         Statement2: defines the condition for executing the code block
         Statement3: executed every time after the code block has been created
 
+For In Loop
+
+        for (property key in object) {
+        // code block to be executed
+        }
+
+    This was hard for me to grasp, so here is the example from
+
+        const person = {fname:"John", lname:"Doe", age:25};
+
+            let text = "";
+            for (let x in person) {
+            text += person[x];
+            }
+
+    Explanation:
+        -The for in loop iterates over a person object
+        -Each iteration returns a key (x)
+        -The key is used to access the value of the key
+        -The value of the key is person[x]
+
 While Loop
 
     while(condition){
